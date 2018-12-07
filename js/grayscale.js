@@ -29,6 +29,7 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+// Textillate Effect for the main header
 $(function () {
     $('.tlt').textillate({
       // the default selector to use when detecting multiple texts to animate
