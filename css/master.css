@@ -9,13 +9,7 @@ a {
 }
 
 body {
-  background: url('../images/dawn.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;z-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0;
-  top: 4em;
-  position: relative;
+  background-color: #141e2c;
 }
 
 .flex-left {
@@ -59,15 +53,17 @@ h4 {
   padding-bottom: 6px;
 }
 
-.header {
-  position: fixed;
+header {
+  position: relative;
   width: 100%;
-  height: 40px;
-  background: #423548;
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom,rgba(22, 22, 22, 0) 0,rgba(22, 22, 22, 0) 75%,#141e2c 100%),url(../images/dawn.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 p {
