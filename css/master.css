@@ -91,11 +91,11 @@ img {
 }
 
 #profile {
-  padding: 2em;
-  background: hsla(262, 16%, 44%, 0.87);
+  padding: 2em 0;
 }
 
 #profile p {
+  font-size: large;
 }
 
 #profile * {
