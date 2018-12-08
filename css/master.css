@@ -24,13 +24,16 @@ body {
   display: flex;
   justify-content: space-start;
 }
-h1 {
-  color: hsla(210, 19%, 51%, 0.82);
+
+.main-header {
+  color: hsla(205, 50%, 51%, 0.75);
   font-family: 'Oswald', sans-serif;
   font-size: 16vmax;
   font-style: italic;
   text-align: center;
   margin: 0.7em 0 1.6em 0;
+  right: 1vw;
+  position: relative;
 }
 
 h2 {
@@ -133,5 +136,4 @@ section {
   background: black;
   display: inline-block;;
   margin: 3vh;
-
 }
