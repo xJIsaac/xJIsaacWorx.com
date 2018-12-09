@@ -57,14 +57,14 @@ h4 {
 header {
   position: relative;
   width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
+  height: 70vmax;
   background: linear-gradient(to bottom,rgba(22, 22, 22, 0) 0,rgba(22, 22, 22, 0) 75%,#141e2c 100%),url(../images/dawn.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  min-height: 35rem;
+  padding: 9rem 0 .25rem;
 }
 
 p {
