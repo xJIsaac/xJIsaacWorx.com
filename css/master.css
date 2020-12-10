@@ -4,10 +4,6 @@
 @import url("grayscale.css");
 @import url("animate.css");
 
-a {
-
-}
-
 body {
   background-color: #141e2c;
 }
@@ -73,15 +69,16 @@ header {
 }
 
 #github {
-  background: gray;
-  margin: 0;
-  width: fit-content;;
+  background: #3a4755;
+  width: fit-content;
+  padding: 3%;
+  line-height: 7; 
 }
 
 p {
   font-family: 'Lato', sans-serif;
-  margin: 0;
   line-height: normal;
+  margin: 0;
 }
 
 .box {
@@ -138,10 +135,6 @@ img {
   margin: 1em 0;
 }
 
-#portfolio a {
-
-}
-
 #portfolio img {
   width: 100%;
 }
@@ -162,14 +155,9 @@ img {
   margin: 1em 0;;
 }
 
-section {
-  padding: 3em 0;
-}
-
 ul {
   list-style-type: none;
 }
 
-li {
 
-}
+
