@@ -4,6 +4,14 @@
 @import url("grayscale.css");
 @import url("animate.css");
 
+a:link {
+  color: #628293;
+}
+
+a:visited {
+  color: #9f645a;
+}
+
 body {
   background-color: #141e2c;
 }
