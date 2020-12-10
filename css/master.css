@@ -5,37 +5,32 @@
 @import url("animate.css");
 
 a {
-  text-decoration: none;
+
 }
 
 body {
   background-color: #141e2c;
 }
 
+.center-me {
+  margin: 0 auto;
+}
+
+}
 .flex-left {
-  padding: 1em 0em 1em 0em;
+  padding: 1em 0e
+  background-color: #141e2c;m 1em 0em;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-start;
 }
 
-.main-header {
-  color: hsla(203, 38%, 39%, 0.82);
-  font-family: 'Oswald', sans-serif;
-  font-size: 16vmax;
-  font-style: italic;
-  text-align: center;
-  right: 1vw;
-  margin: 0.7em 2.5vw 1.6em;
-  position: relative;
-  top: -10vmax;
-}
-
 h2 {
   font-family: 'Lato', sans-serif;
   color: #D7EBFE;
-  font-size: 4vh;
-  margin-bottom: 0;;
+  font-family: 'Lato', sans-serif;
+  color: #D7EBFE;
+  margin-bottom: 0;
 }
 
 h3  {
@@ -58,13 +53,29 @@ header {
   position: relative;
   width: 100%;
   height: 70vmax;
+  backg
+  position: relative;
+  width: 100%;
+  height: 70vmax;
   background: linear-gradient(to bottom,rgba(22, 22, 22, 0) 0,rgba(22, 22, 22, 0) 75%,#141e2c 100%),url(../images/dawn.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   min-height: 35rem;
+  padding: 9rem 0 .25rem;round: linear-gradient(to bottom,rgba(22, 22, 22, 0) 0,rgba(22, 22, 22, 0) 75%,#141e2c 100%),url(../images/dawn.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 35rem;
   padding: 9rem 0 .25rem;
+}
+
+#github {
+  background: gray;
+  margin: 0;
+  width: fit-content;;
 }
 
 p {
@@ -82,8 +93,21 @@ p {
   margin: 60px auto;
 }
 
+
 img {
   border-radius: 5px;
+}
+
+.main-header {
+  color: hsla(203, 38%, 39%, 0.82);
+  font-family: 'Oswald', sans-serif;
+  font-size: 16vmax;
+  font-style: italic;
+  text-align: center;
+  right: 1vw;
+  margin: 0.7em 2.5vw 1.6em;
+  position: relative;
+  top: -10vmax;
 }
 
 .no-pad {
@@ -91,11 +115,11 @@ img {
 }
 
 #profile {
-  padding: 0 0 2em;
+  border-radius: 5px;
 }
 
 #profile p {
-  font-size: large;
+  font-size: initial;
 }
 
 #profile * {
@@ -103,12 +127,19 @@ img {
 }
 
 #portfolio {
-  background: hsla(211,39%,35%,0.8);
   padding: 0;
 }
 
+#portfolio div {
+  background: hsl(0, 38%, 40%);
+  border-radius: 6px;
+  padding: 0 1em;
+  height: 40em;
+  margin: 1em 0;
+}
+
 #portfolio a {
-  padding: 0 14px 0 0;
+
 }
 
 #portfolio img {
@@ -121,10 +152,24 @@ img {
 }
 
 #portfolio h3 {
-  font-size: 2.5vh;
-  margin: 0 0 1em 0;
+  font-size: large;
+  margin: 0 0;
+  padding: 0.75em 0;
+}
+
+#portfolio p {
+  width: 100%;
+  margin: 1em 0;;
 }
 
 section {
   padding: 3em 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+
 }
