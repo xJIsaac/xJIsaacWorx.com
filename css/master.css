@@ -119,6 +119,11 @@ img {
   padding: 0
 }
 
+ul {
+  list-style-type: none;
+}
+
+/* Profile Sytles */
 #profile {
   border-radius: 5px;
 }
@@ -133,10 +138,12 @@ img {
   padding: 0
 }
 
+
 #portfolio {
   padding: 0;
 }
 
+/* Portfolio Sytles */
 #portfolio div {
   background: hsl(0, 38%, 40%);
   border-radius: 6px;
@@ -163,10 +170,6 @@ img {
 #portfolio p {
   width: 100%;
   margin: 1em 0;;
-}
-
-ul {
-  list-style-type: none;
 }
 
 
